@@ -67,7 +67,7 @@ fn best_tg_reprs(media: &api::Media, platform_kind: DerpiPlatformKind) -> Vec<(U
             }
             vec![
                 // First of all try to get an existing MP4 representation for the GIF
-                (media.unwrap_mp4_url(), BlobKind::AnimationMp4),
+                // (media.unwrap_mp4_url(), BlobKind::AnimationMp4),
                 // If there is no MP4 representation, then generate it on the fly
                 // from the original GIF file
                 (media.view_url.clone(), BlobKind::AnimationGif),

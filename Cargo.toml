@@ -34,6 +34,7 @@ publish = false
 assert_matches        = "1.5"
 async-trait           = "0.1"
 base64                = "0.21"
+buildstructor         = "0.5.4"
 bytes                 = "1.1"
 cgo                   = "0.3"
 criterion             = "0.5"
